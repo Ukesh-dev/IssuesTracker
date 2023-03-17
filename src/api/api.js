@@ -7,6 +7,27 @@
 // fetch issues
 // fetch('/api/issues)
 
+//structure of the issue response
+// export const defaultIssue = [
+//   {
+//     id: 'issue_1',
+//     title: 'Test Issue',
+//     number: 1,
+//     status: 'inProgress',
+//     assignee: 'u_2',
+//     comments: ['comment_1'],
+//     createdBy: 'u_1',
+//     createdDate: new Date(),
+//     labels: [{id: '1', name: 'bug', color: 'red'}],
+//   },
+// ]
+
+//fetch single issues based on the number not id
+// fetch(`api/issues/${issueNumber}`)
+
+//fetch comments of the issue
+// fetch(`/api/issues/${issueNumber}/comments`)
+
 // searchQuery
 // fetch(`/api/search/issues?q=${searchValue}`)
 // Must be of structure
